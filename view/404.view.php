@@ -1,15 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>404 Error - SB Admin</title>
-        <link href="css/styles.css" rel="stylesheet" />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
-    </head>
+<!-- inclusion du header qui rassemble la déclaration du début du code HTML -->
+<?php include("layout/header.inc.php"); ?>
+
     <body>
         <div id="layoutError">
             <div id="layoutError_content">
@@ -18,11 +9,11 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-6">
                                 <div class="text-center mt-4">
-                                    <h1 class="display-1">500</h1>
-                                    <p class="lead">Internal Server Error</p>
-                                    <a href="index.html">
+                                    <img class="mb-4 img-error" src="../assets/img/error-404-monochrome.svg" />
+                                    <p class="lead">L'URL demandée n'a pas été trouvée sur ce serveur.</p>
+                                    <a href="../afpa-sb-admin/index.php">
                                         <i class="fas fa-arrow-left me-1"></i>
-                                        Return to Dashboard
+                                        Revenir au tableau de bord
                                     </a>
                                 </div>
                             </div>
@@ -34,11 +25,11 @@
                 <footer class="py-4 bg-light mt-auto">
                     <div class="container-fluid px-4">
                         <div class="d-flex align-items-center justify-content-between small">
-                            <div class="text-muted">Copyright &copy; Your Website 2021</div>
+                            <div class="text-muted">Copyright &copy; Fanzine de Breizh 2021-2022</div>
                             <div>
-                                <a href="#">Privacy Policy</a>
+                                <a href="#">Politique de confidentialité</a>
                                 &middot;
-                                <a href="#">Terms &amp; Conditions</a>
+                                <a href="#">Termes &amp; Conditions</a>
                             </div>
                         </div>
                     </div>
