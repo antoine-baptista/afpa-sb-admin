@@ -100,6 +100,7 @@
                                     <a class="nav-link" href="table.users.php">Table : Users</a>
                                     <a class="nav-link" href="table.commentaires.php">Table : Commentaires</a>
                                     <a class="nav-link" href="table.contacts.php">Table : Contacts</a>
+                                    <a class="nav-link" href="table.employes.php">Table : Employés</a>
                                 </nav>
                             </div>
                         </div>

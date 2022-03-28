@@ -2,8 +2,6 @@
         Ce 'layout' (gabarit) est appelé chaque fois qu'une page
         ou article s'affiche dans le navigateur
 -->
-
-
 <!DOCTYPE html>
 <html lang="fr">
     <head>
